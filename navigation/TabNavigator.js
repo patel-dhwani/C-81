@@ -28,7 +28,7 @@ const BottomTabNavigator = () => {
             }}
         >
             <Tab.Screen name="Feed" component={Feed} />
-            <Tab.Screen name="CreateStory" component={CreatePost} />
+            <Tab.Screen name="CreatePost" component={CreatePost} />
         </Tab.Navigator>
     );
 }
